@@ -32,3 +32,18 @@ VALUES
  Avengers Endgame: 5
  The Fall Guy: 6
 */
+
+INSERT INTO actors_movies (actor_id, movie_id, character_name)
+VALUES
+    (1, 1, 'Bella'),
+    (1, 4, 'Mia'),
+    (2, 3, 'Barbie'),
+    (3, 3, 'Ken'),
+    (3, 4, 'Sebastian'),
+    (3, 6, 'Colt'),
+    (4, 2, 'Lewis'),
+    (4, 5, 'Tony'),
+    (5, 2, 'Kitty'),
+    (5, 6, 'Jody'),
+    (6, 1, 'Duncan'),
+    (6, 5, 'Bruce');
